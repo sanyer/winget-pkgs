@@ -1,0 +1,28 @@
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.singleton.1.0.0.schema.json
+PackageIdentifier: MSI.MSIAfterburner
+PackageVersion: 4.6.3
+PackageName: MSI Afterburner
+PackageUrl: https://www.msi.com/Landing/afterburner
+Author: MSI
+Publisher: MSI
+PublisherUrl: https://www.msi.com/
+PublisherSupportUrl: https://www.msi.com/support/technical_details/VGA_MSI_Utility_AfterBurner
+PrivacyUrl: https://www.msi.com/page/privacy-policy
+License: Copyright © 2021 Micro-Star INT'L CO., LTD. All rights reserved.
+ShortDescription: MSI Afterburner is a handy overclocking utility for graphics cards.
+Moniker: msiafterburner
+Tags:
+- gaming
+- utilities
+- afterburner
+MinimumOSVersion: 10.0.0.0
+InstallerType: nullsoft
+Installers:
+- Architecture: x86
+  InstallerUrl: https://files01.tchspt.com/temp/MSIAfterburnerSetup463.exe
+  InstallerSha256: C5088692D08AD51DC2315302CFB5618F674C3D74013552147596080FE993B93E
+  Scope: machine
+  InstallerLocale: en-US
+PackageLocale: en-US
+ManifestType: singleton
+ManifestVersion: 1.0.0
